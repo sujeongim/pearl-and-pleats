@@ -80,4 +80,4 @@
 ## 매일 작업 순서
 1. 이 파일, `writer/continuity.md`, `_posts/`의 최근 5편을 읽는다.
 2. 오늘(한국 시간) 날짜로 일기 한 편을 쓴다. 시즌 흐름과 열린 이야기를 조금씩 진전시킨다. 하루에 큰 사건은 하나까지.
-3. `writer/continuity.md`를 갱신한다: 새로 정해진 사실, 열린 이야기, 다음에 이어갈 거리.
+3. `writer/continuity.md`를 갱신한다. 구조와 길이 한도(전체 5,000자)는 `writer/daily-routine.md` 6단계를 따른다.
