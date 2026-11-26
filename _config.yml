@@ -1,0 +1,32 @@
+title: 진주와 플리츠
+description: "진주에서 올라와 서울에서 단정하게 버티는 스물한 살, 윤세아의 일기."
+lang: ko
+timezone: Asia/Seoul
+
+# 저장소 이름이 바뀌면 baseurl도 함께 바꿔주세요. (사용자명.github.io 저장소라면 "")
+baseurl: "/pearl-and-pleats"
+url: ""
+
+permalink: /:year/:month/:day/
+markdown: kramdown
+kramdown:
+  hard_wrap: true
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
+  - scope:
+      path: ""
+    values:
+      layout: default
+
+exclude:
+  - README.md
+  - writer/

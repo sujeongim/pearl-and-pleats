@@ -1,0 +1,3 @@
+{%- assign kd_days = "일,월,화,수,목,금,토" | split: "," -%}
+{%- assign kd_w = include.date | date: "%w" | plus: 0 -%}
+{{ include.date | date: "%-m월 %-d일" }} {{ kd_days[kd_w] }}요일

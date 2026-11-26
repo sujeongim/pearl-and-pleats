@@ -1,0 +1,20 @@
+---
+layout: default
+title: 일기
+---
+<section class="intro">
+  <p class="intro-quote">진주에서 올라와,<br>서울에서 단정하게 버티는 중.</p>
+  <p class="intro-sub">윤세아, 스물한 살의 일기</p>
+</section>
+
+<ol class="entry-list">
+  {% for post in site.posts %}
+  <li>
+    <a href="{{ post.url | relative_url }}">
+      <span class="list-date">{% include korean-date.html date=post.date %}{% if post.weather %} · {{ post.weather }}{% endif %}</span>
+      <span class="list-title">{{ post.title }}</span>
+      <span class="list-excerpt">{{ post.excerpt | strip_html | truncate: 90 }}</span>
+    </a>
+  </li>
+  {% endfor %}
+</ol>
